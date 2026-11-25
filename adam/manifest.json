@@ -1,11 +1,11 @@
 {
- "name": "Skitests Adam",
- "short_name": "Skitests",
+ "name": "SNØ Adam – Skitests",
+ "short_name": "SNØ Adam",
  "start_url": "./",
  "scope": "./",
  "display": "standalone",
- "background_color": "#123a63",
- "theme_color": "#123a63",
+ "background_color": "#222222",
+ "theme_color": "#222222",
  "icons": [
   {
    "src": "icon-192.png",
