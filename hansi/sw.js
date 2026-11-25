@@ -1,4 +1,4 @@
-// Stand 25.11.2026 19:54 – zuerst Netz (immer aktuell), ohne Netz der letzte Stand aus dem Speicher.
+// Stand 25.11.2026 20:26 – zuerst Netz (immer aktuell), ohne Netz der letzte Stand aus dem Speicher.
 const C='skitest-hansi';
 const DATEIEN=['./','index.html','manifest.json','icon-180.png','icon-192.png','icon-512.png'];
 self.addEventListener('install',e=>{self.skipWaiting();e.waitUntil(caches.open(C).then(c=>c.addAll(DATEIEN)).catch(()=>{}));});
