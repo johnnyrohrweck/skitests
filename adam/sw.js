@@ -1,6 +1,6 @@
-// Stand 25.11.2026 21:06 – zuerst Netz (immer aktuell), ohne Netz der letzte Stand aus dem Speicher.
+// Stand 25.11.2026 21:17 – zuerst Netz (immer aktuell), ohne Netz der letzte Stand aus dem Speicher.
 const C='skitest-adam';
-const DATEIEN=['./','index.html','manifest.json','icon-180.png','icon-192.png','icon-512.png'];
+const DATEIEN=['./','index.html','manifest.json','icon-180.png','icon-192.png','icon-512.png','icon-maskable-512.png'];
 self.addEventListener('install',e=>{self.skipWaiting();e.waitUntil(caches.open(C).then(c=>c.addAll(DATEIEN)).catch(()=>{}));});
 self.addEventListener('activate',e=>{e.waitUntil(self.clients.claim());});
 self.addEventListener('fetch',e=>{
